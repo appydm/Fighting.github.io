@@ -1,5 +1,5 @@
 title: HTTP响应头和请求头信息对照表
-author: Figthing
+author: Fighting
 tags:
   - http
   - 协议

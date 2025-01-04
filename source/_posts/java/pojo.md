@@ -1,5 +1,5 @@
 title: JavaEE PO VO BO DTO POJO DAO 整理总结
-author: Figthing
+author: Fighting
 tags:
   - java
   - pojo

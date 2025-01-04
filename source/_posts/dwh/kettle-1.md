@@ -1,5 +1,5 @@
 title: kettle
-author: Figthing
+author: Fighting
 tags:
   - dwh
   - etl

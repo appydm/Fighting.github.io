@@ -1,5 +1,5 @@
 title: JAVA动态代理机制
-author: Figthing
+author: Fighting
 tags:
   - java
   - proxy

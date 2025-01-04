@@ -1,5 +1,5 @@
 title: Mobaxterm session stopped
-author: Figthing
+author: Fighting
 tags:
   - linux
   - mobaxterm

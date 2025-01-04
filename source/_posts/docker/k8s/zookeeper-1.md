@@ -1,5 +1,5 @@
 title: K8s搭建-Zookeeper集群
-author: Figthing
+author: Fighting
 tags:
   - docker
   - k8s

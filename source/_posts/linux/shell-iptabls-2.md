@@ -1,5 +1,5 @@
 title: 9个常用iptables配置实例
-author: Figthing
+author: Fighting
 tags:
   - linux
   - shell

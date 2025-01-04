@@ -1,5 +1,5 @@
 title: Rsync + Sersync 实现文件实时同步
-author: Figthing
+author: Fighting
 tags:
   - software
   - rsync

@@ -1,5 +1,5 @@
 title: Lombok介绍
-author: Figthing
+author: Fighting
 tags:
   - java
   - lombok

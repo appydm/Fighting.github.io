@@ -1,5 +1,5 @@
 title: 搭建Shadowsocks服务
-author: Figthing
+author: Fighting
 tags:
   - software
   - ss

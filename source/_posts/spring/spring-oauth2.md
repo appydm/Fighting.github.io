@@ -1,5 +1,5 @@
 title: Spring OAuth2基础
-author: Figthing
+author: Fighting
 tags:
   - java
   - spring

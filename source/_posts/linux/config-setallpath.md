@@ -1,5 +1,5 @@
 title: Linux设置全路径显示
-author: Figthing
+author: Fighting
 tags:
   - linux
 categories:

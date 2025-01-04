@@ -1,5 +1,5 @@
 title: Spring Security + OAuth2（一）
-author: Figthing
+author: Fighting
 tags:
   - java
   - spring

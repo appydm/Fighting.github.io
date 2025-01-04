@@ -1,5 +1,5 @@
 title: 适配器模式之对象适配器
-author: Figthing
+author: Fighting
 tags:
   - 设计模式
   - 适配器模式

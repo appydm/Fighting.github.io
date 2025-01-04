@@ -1,5 +1,5 @@
 title: 设计模式六大原则
-author: Figthing
+author: Fighting
 tags:
   - 设计模式
 categories:

@@ -1,5 +1,5 @@
 title: Redis客户端选择
-author: Figthing
+author: Fighting
 tags:
   - java
   - spring

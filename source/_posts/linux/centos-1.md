@@ -1,5 +1,5 @@
 title: centos7升级后无法重启或关机解决办法
-author: Figthing
+author: Fighting
 tags:
   - linux
   - centos

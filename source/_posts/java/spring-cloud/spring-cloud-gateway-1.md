@@ -1,5 +1,5 @@
 title: ApiGateway整合Swagger2
-author: Figthing
+author: Fighting
 tags:
   - java
   - spring-cloud

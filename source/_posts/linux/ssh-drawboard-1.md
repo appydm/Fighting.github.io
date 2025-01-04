@@ -1,5 +1,5 @@
 title: 搭建跳板机
-author: Figthing
+author: Fighting
 tags:
   - linux
   - ssh

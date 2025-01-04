@@ -1,5 +1,5 @@
 title: 'shell /bin/bash^M: bad interpreter错误解决'
-author: Figthing
+author: Fighting
 tags:
   - linux
   - shell

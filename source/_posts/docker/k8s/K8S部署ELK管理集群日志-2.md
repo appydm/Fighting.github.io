@@ -1,5 +1,5 @@
 title: K8S部署ELK管理集群日志（二）
-author: Figthing
+author: Fighting
 tags:
   - docker
   - k8s

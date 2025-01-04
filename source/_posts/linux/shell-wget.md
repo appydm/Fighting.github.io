@@ -5,7 +5,7 @@ tags:
   - wget
 categories:
   - linux
-author: Figthing
+author: Fighting
 copyright: true
 date: 2018-01-07 21:53:00
 updated: 2018-01-08 13:18:54

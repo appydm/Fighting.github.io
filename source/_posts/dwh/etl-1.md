@@ -1,5 +1,5 @@
 title: 数据仓库之ETL
-author: Figthing
+author: Fighting
 tags:
   - data-warehouse
   - etl

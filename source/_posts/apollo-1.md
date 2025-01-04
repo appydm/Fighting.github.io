@@ -1,5 +1,5 @@
 title: 携程Apollo配置中心
-author: Figthing
+author: Fighting
 tags:
   - spring cloud
   - apollo

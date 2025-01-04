@@ -1,5 +1,5 @@
 title: TC基于CBQ队列的流量管理范例
-author: Figthing
+author: Fighting
 tags:
   - linux
   - shell

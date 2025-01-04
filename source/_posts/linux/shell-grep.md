@@ -1,5 +1,5 @@
 title: GREP命令
-author: Figthing
+author: Fighting
 tags:
   - linux
   - shell

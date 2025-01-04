@@ -1,5 +1,5 @@
 title: Spring Cloud 配置中心 Github SSH验证（二）
-author: Figthing
+author: Fighting
 tags:
   - java
   - spring-cloud

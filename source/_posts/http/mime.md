@@ -1,5 +1,5 @@
 title: MIME类型列表
-author: Figthing
+author: Fighting
 tags:
   - http
   - 协议

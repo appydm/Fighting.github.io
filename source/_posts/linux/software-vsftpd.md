@@ -1,5 +1,5 @@
 title: vsftpd安装
-author: Figthing
+author: Fighting
 tags:
   - linux
   - software

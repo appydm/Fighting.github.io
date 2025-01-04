@@ -1,5 +1,5 @@
 title: 'iptables之nat表应用——IP与端口的映射 '
-author: Figthing
+author: Fighting
 tags:
   - linux
   - shell

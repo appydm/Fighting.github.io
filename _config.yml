@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Figthing的博客
+title: Fighting的博客
 subtitle: 'blog.appydm.com'
 description: '奋斗过，就不后悔'
 keywords: 
-author: Figthing
+author: Fighting
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
@@ -119,7 +119,7 @@ theme_config:
     rss: /atom.xml
     scheme: Gemini
     social:
-        GitHub: https://github.com/Figthing || github
+        GitHub: https://github.com/Fighting || github
         E-Mail: mailto:13966837@qq.com || envelope
         老博客: http://blog.163.com/023_dns
     menu:
@@ -131,6 +131,8 @@ theme_config:
         about: /about/ || user
     menu_icons:
         enable: true
+    motion:
+      enable: false   # 渐隐渐显效果--去掉
     canvas_ribbon:
         enable: false
         size: 300
@@ -152,10 +154,19 @@ theme_config:
         icon: heart
         copyright:
         powered: false
-        theme:
-            enable: false
-            version: false
 
+asset_img:
+  enable: true
+  # 图片目录，相对于source目录
+  dir: images
+  # 是否压缩图片
+  compress: true
+  # 压缩质量，0-1之间，默认为0.6
+  quality: 0.6
+  # 是否生成缩略图
+  thumbnail: true
+  # 缩略图大小，默认为120x120
+  thumbnail_size: 120x120
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

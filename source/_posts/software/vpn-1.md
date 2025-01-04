@@ -1,5 +1,5 @@
 title: 搭建 IPsec VPN 服务
-author: Figthing
+author: Fighting
 tags:
   - software
   - vpn

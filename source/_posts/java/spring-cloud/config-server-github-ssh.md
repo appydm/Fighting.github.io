@@ -1,5 +1,5 @@
 title: Spring Cloud 配置中心 Github SSH验证（一）
-author: Figthing
+author: Fighting
 tags:
   - java
   - spring-cloud
@@ -83,7 +83,7 @@ Windows下生成密匙，可以直接使用`Git Bash`工具，执行`ssh-keygen 
 **properties文件**
 
 ```properties
-spring.cloud.config.server.git.uri=git@github.com:Figthing/hyper-config-repo.git
+spring.cloud.config.server.git.uri=git@github.com:Fighting/hyper-config-repo.git
 spring.cloud.config.server.git.strict-host-key-checking=false
 spring.cloud.config.server.git.ignore-local-ssh-settings=true
 spring.cloud.config.server.git.search-paths=/local

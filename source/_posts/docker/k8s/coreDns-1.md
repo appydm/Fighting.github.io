@@ -1,5 +1,5 @@
 title: K8s搭建-CoreDns
-author: Figthing
+author: Fighting
 tags:
   - docker
   - k8s

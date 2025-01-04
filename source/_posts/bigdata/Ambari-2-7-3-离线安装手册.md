@@ -1,5 +1,5 @@
 title: Ambari 2.7.3 离线安装手册
-author: Figthing
+author: Fighting
 tags:
   - bigdata
   - ambari

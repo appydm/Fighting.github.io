@@ -1,5 +1,5 @@
 title: Docker集群(二)
-author: Figthing
+author: Fighting
 tags:
   - docker
 categories:
