@@ -1100,7 +1100,7 @@
 <tr>
 <td>From</td>
 <td>发出请求的用户的Email</td>
-<td>From: <a href="mailto:&#x75;&#x73;&#101;&#114;&#64;&#101;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#x75;&#x73;&#101;&#114;&#64;&#101;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td>From: <a href="mailto:&#117;&#115;&#x65;&#114;&#x40;&#101;&#109;&#x61;&#105;&#108;&#46;&#x63;&#111;&#109;">&#117;&#115;&#x65;&#114;&#x40;&#101;&#109;&#x61;&#105;&#108;&#46;&#x63;&#111;&#109;</a></td>
 </tr>
 <tr>
 <td>Host</td>
@@ -1347,6 +1347,28 @@
       </tags>
   </entry>
   <entry>
+    <title>MIME类型列表</title>
+    <url>/2018/01/09/http/mime/</url>
+    <content><![CDATA[<h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>MIME (Multipurpose Internet Mail Extensions) 是描述消息内容类型的因特网标准。<br>MIME 消息能包含文本、图像、音频、视频以及其他应用程序专用的数据。<br>官方的 MIME 信息是由 Internet Engineering Task Force (IETF) 在下面的文档中提供的：</p>
+<blockquote>
+<p>RFC-822 Standard for ARPA Internet text messages<br>RFC-2045 MIME Part 1: Format of Internet Message Bodies<br>RFC-2046 MIME Part 2: Media Types<br>RFC-2047 MIME Part 3: Header Extensions for Non-ASCII Text<br>RFC-2048 MIME Part 4: Registration Procedures<br>RFC-2049 MIME Part 5: Conformance Criteria and Examples</p>
+</blockquote>
+<p>不同的应用程序支持不同的 MIME 类型。<br>下面的参考手册是由 Microsoft Internet Information Server version 5 所支持的 MIME 类型列表。</p>
+<span id="more"></span>
+
+<hr>
+<p><strong>按照内容类型排列的 Mime 类型列表</strong></p>
+<p>| 类型/子类型 | 扩展名 |<br>|——–|——–|                                  |<br>|application/envoy|    evy                             |<br>|application/fractals |    fif                         |<br>|application/futuresplash |    spl                     |<br>|application/hta |    hta                             |<br>|application/internet-property-stream |    acx         |<br>|application/mac-binhex40 |    hqx                     |<br>|application/msword |    doc                             |<br>|application/msword |    dot                             |<br>|application/octet-stream |    *                        |<br>|application/octet-stream |    bin                      |<br>|application/octet-stream |    class                    |<br>|application/octet-stream |    dms                      |<br>|application/octet-stream |    exe                      |<br>|application/octet-stream |    lha                      |<br>|application/octet-stream |    lzh                      |<br>|application/oda    | oda                              |<br>|application/olescript    | axs                          |<br>|application/pdf    | pdf                              |<br>|application/pics-rules    | prf                          |<br>|application/pkcs10    | p10                              |<br>|application/pkix-crl    | crl                          |<br>|application/postscript    | ai                           |<br>|application/postscript    | eps                          |<br>|application/postscript    | ps                           |<br>|application/rtf    | rtf                              |<br>|application/set-payment-initiation |    setpay           |<br>|application/set-registration-initiation |    setreg   |<br>|application/vnd.ms-excel    | xla                      |<br>|application/vnd.ms-excel    | xlc                      |<br>|application/vnd.ms-excel    | xlm                      |<br>|application/vnd.ms-excel    | xls                      |<br>|application/vnd.ms-excel    | xlt                      |<br>|application/vnd.ms-excel    | xlw                      |<br>|application/vnd.ms-outlook    | msg                      |<br>|application/vnd.ms-pkicertstore |    sst              |<br>|application/vnd.ms-pkiseccat |    cat                  |<br>|application/vnd.ms-pkistl |    stl                      |<br>|application/vnd.ms-powerpoint |    pot                  |<br>|application/vnd.ms-powerpoint |    pps                  |<br>|application/vnd.ms-powerpoint |    ppt                  |<br>|application/vnd.ms-project |    mpp                      |<br>|application/vnd.ms-works |    wcm                      |<br>|application/vnd.ms-works |    wdb                      |<br>|application/vnd.ms-works |    wks                      |<br>|application/vnd.ms-works |    wps                      |<br>|application/winhlp |    hlp                              |<br>|application/x-bcpio |    bcpio                        |<br>|application/x-cdf |    cdf                              |<br>|application/x-compress |    z                            |<br>|application/x-compressed |    tgz                      |<br>|application/x-cpio |    cpio                             |<br>|application/x-csh |    csh                              |<br>|application/x-director |    dcr                          |<br>|application/x-director |    dir                          |<br>|application/x-director |    dxr                          |<br>|application/x-dvi |    dvi                              |<br>|application/x-gtar |    gtar                             |<br>|application/x-gzip |    gz                               |<br>|application/x-hdf |    hdf                              |<br>|application/x-internet-signup |    ins                  |<br>|application/x-internet-signup |    isp                  |<br>|application/x-iphone |    iii                          |<br>|application/x-javascript |    js                       |<br>|application/x-latex |    latex                        |<br>|application/x-msaccess |    mdb                          |<br>|application/x-mscardfile |    crd                      |<br>|application/x-msclip |    clp                          |<br>|application/x-msdownload    | dll                      |<br>|application/x-msmediaview    | m13                      |<br>|application/x-msmediaview    | m14                      |<br>|application/x-msmediaview    | mvb                      |<br>|application/x-msmetafile    | wmf                      |<br>|application/x-msmoney    | mny                          |<br>|application/x-mspublisher    | pub                      |<br>|application/x-msschedule    | scd                      |<br>|application/x-msterminal    | trm                      |<br>|application/x-mswrite    | wri                          |<br>|application/x-netcdf    | cdf                          |<br>|application/x-netcdf    | nc                           |<br>|application/x-perfmon    | pma                          |<br>|application/x-perfmon    | pmc                          |<br>|application/x-perfmon    | pml                          |<br>|application/x-perfmon    | pmr                          |<br>|application/x-perfmon    | pmw                          |<br>|application/x-pkcs12    | p12                          |<br>|application/x-pkcs12    | pfx                          |<br>|application/x-pkcs7-certificates    | p7b              |<br>|application/x-pkcs7-certificates    | spc              |<br>|application/x-pkcs7-certreqresp    | p7r              |<br>|application/x-pkcs7-mime    | p7c                      |<br>|application/x-pkcs7-mime    | p7m                      |<br>|application/x-pkcs7-signature    | p7s                  |<br>|application/x-sh    | sh                               |<br>|application/x-shar    | shar                             |<br>|application/x-shockwave-flash |    swf                  |<br>|application/x-stuffit    | sit                          |<br>|application/x-sv4cpio    | sv4cpio                      |<br>|application/x-sv4crc    | sv4crc                       |<br>|application/x-tar    | tar                              |<br>|application/x-tcl    | tcl                              |<br>|application/x-tex    | tex                              |<br>|application/x-texinfo    | texi                         |<br>|application/x-texinfo    | texinfo                      |<br>|application/x-troff    | roff                         |<br>|application/x-troff    | t                            |<br>|application/x-troff    | tr                           |<br>|application/x-troff-man    | man                      |<br>|application/x-troff-me    | me                           |<br>|application/x-troff-ms    | ms                           |<br>|application/x-ustar    | ustar                        |<br>|application/x-wais-source    | src                      |<br>|application/x-x509-ca-cert    | cer                      |<br>|application/x-x509-ca-cert    | crt                      |<br>|application/x-x509-ca-cert    | der                      |<br>|application/ynd.ms-pkipko    | pko                      |<br>|application/zip    | zip                              |<br>|audio/basic    | au                                   |<br>|audio/basic |    snd                                  |<br>|audio/mid    | mid                                      |<br>|audio/mid    | rmi                                      |<br>|audio/mpeg    | mp3                                      |<br>|audio/x-aiff    | aif                                  |<br>|audio/x-aiff    | aifc                                 |<br>|audio/x-aiff    | aiff                                 |<br>|audio/x-mpegurl    | m3u                              |<br>|audio/x-pn-realaudio    | ra                           |<br>|audio/x-pn-realaudio    | ram                          |<br>|audio/x-wav    | wav                                  |<br>|image/bmp    | bmp                                      |<br>|image/cis-cod    | cod                                  |<br>|image/gif    | gif                                      |<br>|image/ief    | ief                                      |<br>|image/jpeg    | jpe                                      |<br>|image/jpeg    | jpeg                                     |<br>|image/jpeg    | jpg                                      |<br>|image/pipeg    | jfif                                 |<br>|image/svg+xml    | svg                                  |<br>|image/tiff    | tif                                      |<br>|image/tiff    | tiff                                     |<br>|image/x-cmu-raster    | ras                              |<br>|image/x-cmx    | cmx                                  |<br>|image/x-icon    | ico                                  |<br>|image/x-portable-anymap    | pnm                      |<br>|image/x-portable-bitmap    | pbm                      |<br>|image/x-portable-graymap    | pgm                      |<br>|image/x-portable-pixmap    | ppm                      |<br>|image/x-rgb    | rgb                                  |<br>|image/x-xbitmap    | xbm                              |<br>|image/x-xpixmap    | xpm                              |<br>|image/x-xwindowdump    | xwd                          |<br>|message/rfc822    | mht                                  |<br>|message/rfc822    | mhtml                                |<br>|message/rfc822    | nws                                  |<br>|text/css    | css                                      |<br>|text/h323    | 323                                      |<br>|text/html    | htm                                      |<br>|text/html    | html                                     |<br>|text/html    | stm                                      |<br>|text/iuls    | uls                                      |<br>|text/plain    | bas                                      |<br>|text/plain    | c                                        |<br>|text/plain    | h                                        |<br>|text/plain    | txt                                      |<br>|text/richtext    | rtx                                  |<br>|text/scriptlet    | sct                                  |<br>|text/tab-separated-values    | tsv                      |<br>|text/webviewhtml    | htt                              |<br>|text/x-component    | htc                              |<br>|text/x-setext    | etx                                  |<br>|text/x-vcard    | vcf                                  |<br>|video/mpeg    | mp2                                      |<br>|video/mpeg    | mpa                                      |<br>|video/mpeg    | mpe                                      |<br>|video/mpeg    | mpeg                                     |<br>|video/mpeg    | mpg                                      |<br>|video/mpeg    | mpv2                                     |<br>|video/quicktime    | mov                              |<br>|video/quicktime    | qt                               |<br>|video/x-la-asf    | lsf                                  |<br>|video/x-la-asf    | lsx                                  |<br>|video/x-ms-asf    | asf                                  |<br>|video/x-ms-asf    | asr                                  |<br>|video/x-ms-asf    | asx                                  |<br>|video/x-msvideo    | avi                              |<br>|video/x-sgi-movie    | movie                            |<br>|x-world/x-vrml    | flr                                  |<br>|x-world/x-vrml    | vrml                                 |<br>|x-world/x-vrml    | wrl                                  |<br>|x-world/x-vrml    | wrz                                  |<br>|x-world/x-vrml    | xaf                                  |<br>|x-world/x-vrml    | xof                                  |</p>
+]]></content>
+      <categories>
+        <category>http</category>
+      </categories>
+      <tags>
+        <tag>http</tag>
+        <tag>协议</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Idea中整合Docker</title>
     <url>/2018/05/11/idea/1/</url>
     <content><![CDATA[<h4 id="IDEA在Windows上结合Docker"><a href="#IDEA在Windows上结合Docker" class="headerlink" title="IDEA在Windows上结合Docker"></a>IDEA在Windows上结合Docker</h4><p>在网上找了很多文章，却没有一篇文章明确说明如何整合，如何使用Idea+Docker，下面来一一说下整合。</p>
@@ -1386,28 +1408,6 @@
       </categories>
       <tags>
         <tag>idea</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>MIME类型列表</title>
-    <url>/2018/01/09/http/mime/</url>
-    <content><![CDATA[<h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>MIME (Multipurpose Internet Mail Extensions) 是描述消息内容类型的因特网标准。<br>MIME 消息能包含文本、图像、音频、视频以及其他应用程序专用的数据。<br>官方的 MIME 信息是由 Internet Engineering Task Force (IETF) 在下面的文档中提供的：</p>
-<blockquote>
-<p>RFC-822 Standard for ARPA Internet text messages<br>RFC-2045 MIME Part 1: Format of Internet Message Bodies<br>RFC-2046 MIME Part 2: Media Types<br>RFC-2047 MIME Part 3: Header Extensions for Non-ASCII Text<br>RFC-2048 MIME Part 4: Registration Procedures<br>RFC-2049 MIME Part 5: Conformance Criteria and Examples</p>
-</blockquote>
-<p>不同的应用程序支持不同的 MIME 类型。<br>下面的参考手册是由 Microsoft Internet Information Server version 5 所支持的 MIME 类型列表。</p>
-<span id="more"></span>
-
-<hr>
-<p><strong>按照内容类型排列的 Mime 类型列表</strong></p>
-<p>| 类型/子类型 | 扩展名 |<br>|——–|——–|                                  |<br>|application/envoy|    evy                             |<br>|application/fractals |    fif                         |<br>|application/futuresplash |    spl                     |<br>|application/hta |    hta                             |<br>|application/internet-property-stream |    acx         |<br>|application/mac-binhex40 |    hqx                     |<br>|application/msword |    doc                             |<br>|application/msword |    dot                             |<br>|application/octet-stream |    *                        |<br>|application/octet-stream |    bin                      |<br>|application/octet-stream |    class                    |<br>|application/octet-stream |    dms                      |<br>|application/octet-stream |    exe                      |<br>|application/octet-stream |    lha                      |<br>|application/octet-stream |    lzh                      |<br>|application/oda    | oda                              |<br>|application/olescript    | axs                          |<br>|application/pdf    | pdf                              |<br>|application/pics-rules    | prf                          |<br>|application/pkcs10    | p10                              |<br>|application/pkix-crl    | crl                          |<br>|application/postscript    | ai                           |<br>|application/postscript    | eps                          |<br>|application/postscript    | ps                           |<br>|application/rtf    | rtf                              |<br>|application/set-payment-initiation |    setpay           |<br>|application/set-registration-initiation |    setreg   |<br>|application/vnd.ms-excel    | xla                      |<br>|application/vnd.ms-excel    | xlc                      |<br>|application/vnd.ms-excel    | xlm                      |<br>|application/vnd.ms-excel    | xls                      |<br>|application/vnd.ms-excel    | xlt                      |<br>|application/vnd.ms-excel    | xlw                      |<br>|application/vnd.ms-outlook    | msg                      |<br>|application/vnd.ms-pkicertstore |    sst              |<br>|application/vnd.ms-pkiseccat |    cat                  |<br>|application/vnd.ms-pkistl |    stl                      |<br>|application/vnd.ms-powerpoint |    pot                  |<br>|application/vnd.ms-powerpoint |    pps                  |<br>|application/vnd.ms-powerpoint |    ppt                  |<br>|application/vnd.ms-project |    mpp                      |<br>|application/vnd.ms-works |    wcm                      |<br>|application/vnd.ms-works |    wdb                      |<br>|application/vnd.ms-works |    wks                      |<br>|application/vnd.ms-works |    wps                      |<br>|application/winhlp |    hlp                              |<br>|application/x-bcpio |    bcpio                        |<br>|application/x-cdf |    cdf                              |<br>|application/x-compress |    z                            |<br>|application/x-compressed |    tgz                      |<br>|application/x-cpio |    cpio                             |<br>|application/x-csh |    csh                              |<br>|application/x-director |    dcr                          |<br>|application/x-director |    dir                          |<br>|application/x-director |    dxr                          |<br>|application/x-dvi |    dvi                              |<br>|application/x-gtar |    gtar                             |<br>|application/x-gzip |    gz                               |<br>|application/x-hdf |    hdf                              |<br>|application/x-internet-signup |    ins                  |<br>|application/x-internet-signup |    isp                  |<br>|application/x-iphone |    iii                          |<br>|application/x-javascript |    js                       |<br>|application/x-latex |    latex                        |<br>|application/x-msaccess |    mdb                          |<br>|application/x-mscardfile |    crd                      |<br>|application/x-msclip |    clp                          |<br>|application/x-msdownload    | dll                      |<br>|application/x-msmediaview    | m13                      |<br>|application/x-msmediaview    | m14                      |<br>|application/x-msmediaview    | mvb                      |<br>|application/x-msmetafile    | wmf                      |<br>|application/x-msmoney    | mny                          |<br>|application/x-mspublisher    | pub                      |<br>|application/x-msschedule    | scd                      |<br>|application/x-msterminal    | trm                      |<br>|application/x-mswrite    | wri                          |<br>|application/x-netcdf    | cdf                          |<br>|application/x-netcdf    | nc                           |<br>|application/x-perfmon    | pma                          |<br>|application/x-perfmon    | pmc                          |<br>|application/x-perfmon    | pml                          |<br>|application/x-perfmon    | pmr                          |<br>|application/x-perfmon    | pmw                          |<br>|application/x-pkcs12    | p12                          |<br>|application/x-pkcs12    | pfx                          |<br>|application/x-pkcs7-certificates    | p7b              |<br>|application/x-pkcs7-certificates    | spc              |<br>|application/x-pkcs7-certreqresp    | p7r              |<br>|application/x-pkcs7-mime    | p7c                      |<br>|application/x-pkcs7-mime    | p7m                      |<br>|application/x-pkcs7-signature    | p7s                  |<br>|application/x-sh    | sh                               |<br>|application/x-shar    | shar                             |<br>|application/x-shockwave-flash |    swf                  |<br>|application/x-stuffit    | sit                          |<br>|application/x-sv4cpio    | sv4cpio                      |<br>|application/x-sv4crc    | sv4crc                       |<br>|application/x-tar    | tar                              |<br>|application/x-tcl    | tcl                              |<br>|application/x-tex    | tex                              |<br>|application/x-texinfo    | texi                         |<br>|application/x-texinfo    | texinfo                      |<br>|application/x-troff    | roff                         |<br>|application/x-troff    | t                            |<br>|application/x-troff    | tr                           |<br>|application/x-troff-man    | man                      |<br>|application/x-troff-me    | me                           |<br>|application/x-troff-ms    | ms                           |<br>|application/x-ustar    | ustar                        |<br>|application/x-wais-source    | src                      |<br>|application/x-x509-ca-cert    | cer                      |<br>|application/x-x509-ca-cert    | crt                      |<br>|application/x-x509-ca-cert    | der                      |<br>|application/ynd.ms-pkipko    | pko                      |<br>|application/zip    | zip                              |<br>|audio/basic    | au                                   |<br>|audio/basic |    snd                                  |<br>|audio/mid    | mid                                      |<br>|audio/mid    | rmi                                      |<br>|audio/mpeg    | mp3                                      |<br>|audio/x-aiff    | aif                                  |<br>|audio/x-aiff    | aifc                                 |<br>|audio/x-aiff    | aiff                                 |<br>|audio/x-mpegurl    | m3u                              |<br>|audio/x-pn-realaudio    | ra                           |<br>|audio/x-pn-realaudio    | ram                          |<br>|audio/x-wav    | wav                                  |<br>|image/bmp    | bmp                                      |<br>|image/cis-cod    | cod                                  |<br>|image/gif    | gif                                      |<br>|image/ief    | ief                                      |<br>|image/jpeg    | jpe                                      |<br>|image/jpeg    | jpeg                                     |<br>|image/jpeg    | jpg                                      |<br>|image/pipeg    | jfif                                 |<br>|image/svg+xml    | svg                                  |<br>|image/tiff    | tif                                      |<br>|image/tiff    | tiff                                     |<br>|image/x-cmu-raster    | ras                              |<br>|image/x-cmx    | cmx                                  |<br>|image/x-icon    | ico                                  |<br>|image/x-portable-anymap    | pnm                      |<br>|image/x-portable-bitmap    | pbm                      |<br>|image/x-portable-graymap    | pgm                      |<br>|image/x-portable-pixmap    | ppm                      |<br>|image/x-rgb    | rgb                                  |<br>|image/x-xbitmap    | xbm                              |<br>|image/x-xpixmap    | xpm                              |<br>|image/x-xwindowdump    | xwd                          |<br>|message/rfc822    | mht                                  |<br>|message/rfc822    | mhtml                                |<br>|message/rfc822    | nws                                  |<br>|text/css    | css                                      |<br>|text/h323    | 323                                      |<br>|text/html    | htm                                      |<br>|text/html    | html                                     |<br>|text/html    | stm                                      |<br>|text/iuls    | uls                                      |<br>|text/plain    | bas                                      |<br>|text/plain    | c                                        |<br>|text/plain    | h                                        |<br>|text/plain    | txt                                      |<br>|text/richtext    | rtx                                  |<br>|text/scriptlet    | sct                                  |<br>|text/tab-separated-values    | tsv                      |<br>|text/webviewhtml    | htt                              |<br>|text/x-component    | htc                              |<br>|text/x-setext    | etx                                  |<br>|text/x-vcard    | vcf                                  |<br>|video/mpeg    | mp2                                      |<br>|video/mpeg    | mpa                                      |<br>|video/mpeg    | mpe                                      |<br>|video/mpeg    | mpeg                                     |<br>|video/mpeg    | mpg                                      |<br>|video/mpeg    | mpv2                                     |<br>|video/quicktime    | mov                              |<br>|video/quicktime    | qt                               |<br>|video/x-la-asf    | lsf                                  |<br>|video/x-la-asf    | lsx                                  |<br>|video/x-ms-asf    | asf                                  |<br>|video/x-ms-asf    | asr                                  |<br>|video/x-ms-asf    | asx                                  |<br>|video/x-msvideo    | avi                              |<br>|video/x-sgi-movie    | movie                            |<br>|x-world/x-vrml    | flr                                  |<br>|x-world/x-vrml    | vrml                                 |<br>|x-world/x-vrml    | wrl                                  |<br>|x-world/x-vrml    | wrz                                  |<br>|x-world/x-vrml    | xaf                                  |<br>|x-world/x-vrml    | xof                                  |</p>
-]]></content>
-      <categories>
-        <category>http</category>
-      </categories>
-      <tags>
-        <tag>http</tag>
-        <tag>协议</tag>
       </tags>
   </entry>
   <entry>
@@ -1566,36 +1566,6 @@
       </tags>
   </entry>
   <entry>
-    <title>centos7升级后无法重启或关机解决办法</title>
-    <url>/2018/03/02/linux/centos-1/</url>
-    <content><![CDATA[<p>由于CentOS7新发布的yum源升级包中systemd关机流程判断条件发生了变化，可能会导致centos7升级后，服务器重启时卡死。新发布的systemd进程的判断更加严格，如果某些进程不响应SIGTERM信号，可能会导致重启是挂死。该问题和业务进程对SIGTERM信号的处理有关。</p>
-<p>执行yum update systemd（或者yum update）将systemd系列软件包更新到219-19.el7版本之后，reboot会出现如下卡机界面导致系统挂住，无法重启： </p>
-<p><strong>现象：</strong></p>
-<p><img src="http://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/linux/9.jpg"></p>
-<span id="more"></span>
-
-<p><strong>查询版本包：</strong></p>
-<p><img src="http://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/linux/10.jpg"></p>
-<p><strong>解决办法：</strong></p>
-<ol>
-<li>新建/etc/systemd/system/rc-local.service并写入：</li>
-</ol>
- <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=/etc/rc.d/rc.local Compatibility</span><br><span class="line">ConditionFileIsExecutable=/etc/rc.d/rc.local</span><br><span class="line">After=network.target</span><br><span class="line"></span><br><span class="line">[Service]</span><br><span class="line">Type=forking</span><br><span class="line">ExecStart=/etc/rc.d/rc.local start</span><br><span class="line">TimeoutSec=5</span><br><span class="line">RemainAfterExit=yes</span><br></pre></td></tr></table></figure>
-<ol start="2">
-<li>备份/etc/systemd/system.conf<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cp -a /etc/systemd/system.conf /etc/systemd/system.conf_bak</span><br></pre></td></tr></table></figure></li>
-<li>修改文件<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sed -i &#x27;s/#DefaultTimeoutStopSec=90s/DefaultTimeoutStopSec=30s/g&#x27; /etc/systemd/system.conf</span><br></pre></td></tr></table></figure></li>
-<li>重新加载<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">systemctl daemon-reload</span><br></pre></td></tr></table></figure></li>
-</ol>
-]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>linux</tag>
-        <tag>centos</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Linux系统下查看动态库依赖关系指令（ldd）</title>
     <url>/2025/01/04/linux/Linux%E7%B3%BB%E7%BB%9F%E4%B8%8B%E6%9F%A5%E7%9C%8B%E5%8A%A8%E6%80%81%E5%BA%93%E4%BE%9D%E8%B5%96%E5%85%B3%E7%B3%BB%E6%8C%87%E4%BB%A4/</url>
     <content><![CDATA[<h4 id="Linux系统下查看动态库依赖关系指令（ldd）"><a href="#Linux系统下查看动态库依赖关系指令（ldd）" class="headerlink" title="Linux系统下查看动态库依赖关系指令（ldd）"></a>Linux系统下查看动态库依赖关系指令（ldd）</h4><blockquote>
@@ -1624,6 +1594,36 @@
 <p>另外，ldd命令还可以显示库所需的其他库。通过观察输出结果，在开发调试过程中可以及时了解和解决动态链接库的相关问题。</p>
 <p>使用ldd命令可以帮助开发人员、系统管理员等快速了解程序运行所需的库文件是否存在、版本是否匹配，从而排查库依赖问题。在调试和部署过程中，ldd是一个非常有用的工具，能够提高开发效率和减少出错的可能性。</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>centos7升级后无法重启或关机解决办法</title>
+    <url>/2018/03/02/linux/centos-1/</url>
+    <content><![CDATA[<p>由于CentOS7新发布的yum源升级包中systemd关机流程判断条件发生了变化，可能会导致centos7升级后，服务器重启时卡死。新发布的systemd进程的判断更加严格，如果某些进程不响应SIGTERM信号，可能会导致重启是挂死。该问题和业务进程对SIGTERM信号的处理有关。</p>
+<p>执行yum update systemd（或者yum update）将systemd系列软件包更新到219-19.el7版本之后，reboot会出现如下卡机界面导致系统挂住，无法重启： </p>
+<p><strong>现象：</strong></p>
+<p><img src="http://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/linux/9.jpg"></p>
+<span id="more"></span>
+
+<p><strong>查询版本包：</strong></p>
+<p><img src="http://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/linux/10.jpg"></p>
+<p><strong>解决办法：</strong></p>
+<ol>
+<li>新建/etc/systemd/system/rc-local.service并写入：</li>
+</ol>
+ <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=/etc/rc.d/rc.local Compatibility</span><br><span class="line">ConditionFileIsExecutable=/etc/rc.d/rc.local</span><br><span class="line">After=network.target</span><br><span class="line"></span><br><span class="line">[Service]</span><br><span class="line">Type=forking</span><br><span class="line">ExecStart=/etc/rc.d/rc.local start</span><br><span class="line">TimeoutSec=5</span><br><span class="line">RemainAfterExit=yes</span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li>备份/etc/systemd/system.conf<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cp -a /etc/systemd/system.conf /etc/systemd/system.conf_bak</span><br></pre></td></tr></table></figure></li>
+<li>修改文件<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sed -i &#x27;s/#DefaultTimeoutStopSec=90s/DefaultTimeoutStopSec=30s/g&#x27; /etc/systemd/system.conf</span><br></pre></td></tr></table></figure></li>
+<li>重新加载<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">systemctl daemon-reload</span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+        <tag>centos</tag>
+      </tags>
   </entry>
   <entry>
     <title>Linux设置全路径显示</title>
@@ -2563,7 +2563,7 @@
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">autossh -p 22 -M 6777 -fNR 2222:127.0.0.1:22 root@123.78.150.91</span><br></pre></td></tr></table></figure>
 
 <blockquote>
-<p>命令说明<br>-M 6777 这个表示是监控端口，检测到这个端口不通会重新连接<br>2222:127.0.0.1:22  2222表示需要在远程主机上开启的端口，22表示本地的ssh端口<br><a href="mailto:&#x72;&#111;&#x6f;&#x74;&#64;&#49;&#50;&#51;&#x2e;&#x37;&#x38;&#46;&#49;&#53;&#48;&#46;&#57;&#49;">&#x72;&#111;&#x6f;&#x74;&#64;&#49;&#50;&#51;&#x2e;&#x37;&#x38;&#46;&#49;&#53;&#48;&#46;&#57;&#49;</a> -p 22 root为vps上面的用户，22为vps ssh端口</p>
+<p>命令说明<br>-M 6777 这个表示是监控端口，检测到这个端口不通会重新连接<br>2222:127.0.0.1:22  2222表示需要在远程主机上开启的端口，22表示本地的ssh端口<br><a href="mailto:&#x72;&#x6f;&#111;&#x74;&#64;&#49;&#x32;&#51;&#46;&#55;&#x38;&#x2e;&#49;&#x35;&#x30;&#x2e;&#x39;&#x31;">&#x72;&#x6f;&#111;&#x74;&#64;&#49;&#x32;&#51;&#46;&#55;&#x38;&#x2e;&#49;&#x35;&#x30;&#x2e;&#x39;&#x31;</a> -p 22 root为vps上面的用户，22为vps ssh端口</p>
 </blockquote>
 <p><strong>现在就可以在A服务器使用SSH端口为2222访问B服务器了</strong></p>
 ]]></content>
@@ -4071,68 +4071,6 @@
       </tags>
   </entry>
   <entry>
-    <title>K8s搭建-CoreDns</title>
-    <url>/2019/06/28/docker/k8s/coreDns-1/</url>
-    <content><![CDATA[<h2 id="CoreDNS简介"><a href="#CoreDNS简介" class="headerlink" title="CoreDNS简介"></a>CoreDNS简介</h2><p>CoreDNS 其实就是一个 DNS 服务，而 DNS 作为一种常见的服务发现手段，所以很多开源项目以及工程师都会使用 CoreDNS 为集群提供服务发现的功能，Kubernetes 就在集群中使用 CoreDNS 解决服务发现的问题。</p>
-<p>如果想要在分布式系统实现服务发现的功能，CoreDNS 其实是一个非常好的选择，CoreDNS作为一个已经进入CNCF并且在Kubernetes中作为DNS服务使用的应用，其本身的稳定性和可用性已经得到了证明，同时它基于插件实现的方式非常轻量并且易于使用，插件链的使用也使得第三方插件的定义变得非常的方便。</p>
-<h3 id="Coredns-架构"><a href="#Coredns-架构" class="headerlink" title="Coredns 架构"></a>Coredns 架构</h3><p>整个 CoreDNS 服务都建立在一个使用 Go 编写的 HTTP/2 Web 服务器 Caddy 。</p>
-<h3 id="Coredns-项目下载"><a href="#Coredns-项目下载" class="headerlink" title="Coredns 项目下载"></a>Coredns 项目下载</h3><p>下载地址1：</p>
-<p>wget <a href="https://github.com/coredns/deployment/archive/master.zip">https://github.com/coredns/deployment/archive/master.zip</a><br>unzip master.zip</p>
-<p>下载地址2：<br>git clone <a href="https://github.com/coredns/deployment.git">https://github.com/coredns/deployment.git</a></p>
-<span id="more"></span>
-
-<h3 id="安装部署"><a href="#安装部署" class="headerlink" title="安装部署"></a>安装部署</h3><p>确认是否存在已运行dns服务</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">kubectl  get pods -o wide -n=kube-system</span><br></pre></td></tr></table></figure>
-
-<p>删除命令</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">kubectl delete --namespace=kube-system deployment ****-dns</span><br></pre></td></tr></table></figure>
-
-<p>生成安装配置文件</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd /workspace/deployment/kubernetes</span><br><span class="line">./deploy.sh -r 10.254.0.0/16 -i 10.254.0.2  -d cluster.local -t coredns.yaml.sed -s &gt;coredns.yaml</span><br></pre></td></tr></table></figure>
-
-<p>验证配置文件核心配置</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cat coredns.yaml</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/docker/k8s/1561709072968.png" alt="1561709072968"></p>
-<p><img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/docker/k8s/1561709098483.png" alt="1561709098483"></p>
-<p>执行安装</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">kubectl create -f coredns.yaml</span><br></pre></td></tr></table></figure>
-
-<p>验证安装</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">kubectl get svc -o wide -n=kube-system</span><br><span class="line"></span><br><span class="line">NAME                   TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)               </span><br><span class="line">heapster               ClusterIP   10.109.196.102   &lt;none&gt;        80/TCP                </span><br><span class="line">kube-dns               ClusterIP   10.96.0.2        &lt;none&gt;        53/UDP,53/TCP,9153/TCP</span><br><span class="line">kubernetes-dashboard   NodePort    10.110.231.202   &lt;none&gt;        443:30001/TCP         </span><br><span class="line">monitoring-grafana     NodePort    10.98.242.145    &lt;none&gt;        80:30108/TCP          </span><br><span class="line">monitoring-influxdb    ClusterIP   10.100.60.54     &lt;none&gt;        8086/TCP              </span><br></pre></td></tr></table></figure>
-
-<p>查看coredns详细</p>
-<p><img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/docker/k8s/1561709283565.png" alt="1561709283565"></p>
-<h3 id="设置master和节点DNS"><a href="#设置master和节点DNS" class="headerlink" title="设置master和节点DNS"></a>设置master和节点DNS</h3><p>使用命令查看kubelet配置的位置</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">systemctl status kubelet -l</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/docker/k8s/1561709534383.png" alt="1561709534383"></p>
-<p>修改<code>/var/lib/kubelet/config.yaml</code>文件的内容</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">clusterDNS:</span><br><span class="line">- 10.96.0.2</span><br><span class="line">clusterDomain: cluster.local.</span><br></pre></td></tr></table></figure>
-
-<p>重启</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">systemctl daemon-reload</span><br><span class="line">systemctl restart kubelet</span><br></pre></td></tr></table></figure>
-
-<h3 id="验证DNS"><a href="#验证DNS" class="headerlink" title="验证DNS"></a>验证DNS</h3><p>1、创建一个curl</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">kubectl run -it --image=registry.cn-shenzhen.aliyuncs.com/zhouqi-kubernetes/busyboxplus:v1 curl --rm</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/docker/k8s/1561706009470.png" alt="1561706009470"></p>
-<p>这个地方如果要验证各节点，可以伸缩多个，会运行在不同的节点中</p>
-<p><img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/docker/k8s/1561706093086.png" alt="1561706093086"></p>
-<p>对节点的验证，只需要进入容器使用<code>nslookup kubernetes</code>命令，就可以显示下图</p>
-<p><img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/docker/k8s/1561706175310.png" alt="1561706175310"></p>
-<p>文献参考：<a href="https://blog.51cto.com/michaelkang/2367800">https://blog.51cto.com/michaelkang/2367800</a></p>
-]]></content>
-      <categories>
-        <category>docker</category>
-        <category>k8s</category>
-      </categories>
-      <tags>
-        <tag>docker</tag>
-        <tag>k8s</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>K8S部署ELK管理集群日志（三）</title>
     <url>/2021/01/15/docker/k8s/K8S%E9%83%A8%E7%BD%B2ELK%E7%AE%A1%E7%90%86%E9%9B%86%E7%BE%A4%E6%97%A5%E5%BF%97-3/</url>
     <content><![CDATA[<blockquote>
@@ -4229,6 +4167,68 @@
         <tag>docker</tag>
         <tag>k8s</tag>
         <tag>elk</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>K8s搭建-CoreDns</title>
+    <url>/2019/06/28/docker/k8s/coreDns-1/</url>
+    <content><![CDATA[<h2 id="CoreDNS简介"><a href="#CoreDNS简介" class="headerlink" title="CoreDNS简介"></a>CoreDNS简介</h2><p>CoreDNS 其实就是一个 DNS 服务，而 DNS 作为一种常见的服务发现手段，所以很多开源项目以及工程师都会使用 CoreDNS 为集群提供服务发现的功能，Kubernetes 就在集群中使用 CoreDNS 解决服务发现的问题。</p>
+<p>如果想要在分布式系统实现服务发现的功能，CoreDNS 其实是一个非常好的选择，CoreDNS作为一个已经进入CNCF并且在Kubernetes中作为DNS服务使用的应用，其本身的稳定性和可用性已经得到了证明，同时它基于插件实现的方式非常轻量并且易于使用，插件链的使用也使得第三方插件的定义变得非常的方便。</p>
+<h3 id="Coredns-架构"><a href="#Coredns-架构" class="headerlink" title="Coredns 架构"></a>Coredns 架构</h3><p>整个 CoreDNS 服务都建立在一个使用 Go 编写的 HTTP/2 Web 服务器 Caddy 。</p>
+<h3 id="Coredns-项目下载"><a href="#Coredns-项目下载" class="headerlink" title="Coredns 项目下载"></a>Coredns 项目下载</h3><p>下载地址1：</p>
+<p>wget <a href="https://github.com/coredns/deployment/archive/master.zip">https://github.com/coredns/deployment/archive/master.zip</a><br>unzip master.zip</p>
+<p>下载地址2：<br>git clone <a href="https://github.com/coredns/deployment.git">https://github.com/coredns/deployment.git</a></p>
+<span id="more"></span>
+
+<h3 id="安装部署"><a href="#安装部署" class="headerlink" title="安装部署"></a>安装部署</h3><p>确认是否存在已运行dns服务</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">kubectl  get pods -o wide -n=kube-system</span><br></pre></td></tr></table></figure>
+
+<p>删除命令</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">kubectl delete --namespace=kube-system deployment ****-dns</span><br></pre></td></tr></table></figure>
+
+<p>生成安装配置文件</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd /workspace/deployment/kubernetes</span><br><span class="line">./deploy.sh -r 10.254.0.0/16 -i 10.254.0.2  -d cluster.local -t coredns.yaml.sed -s &gt;coredns.yaml</span><br></pre></td></tr></table></figure>
+
+<p>验证配置文件核心配置</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cat coredns.yaml</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/docker/k8s/1561709072968.png" alt="1561709072968"></p>
+<p><img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/docker/k8s/1561709098483.png" alt="1561709098483"></p>
+<p>执行安装</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">kubectl create -f coredns.yaml</span><br></pre></td></tr></table></figure>
+
+<p>验证安装</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">kubectl get svc -o wide -n=kube-system</span><br><span class="line"></span><br><span class="line">NAME                   TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)               </span><br><span class="line">heapster               ClusterIP   10.109.196.102   &lt;none&gt;        80/TCP                </span><br><span class="line">kube-dns               ClusterIP   10.96.0.2        &lt;none&gt;        53/UDP,53/TCP,9153/TCP</span><br><span class="line">kubernetes-dashboard   NodePort    10.110.231.202   &lt;none&gt;        443:30001/TCP         </span><br><span class="line">monitoring-grafana     NodePort    10.98.242.145    &lt;none&gt;        80:30108/TCP          </span><br><span class="line">monitoring-influxdb    ClusterIP   10.100.60.54     &lt;none&gt;        8086/TCP              </span><br></pre></td></tr></table></figure>
+
+<p>查看coredns详细</p>
+<p><img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/docker/k8s/1561709283565.png" alt="1561709283565"></p>
+<h3 id="设置master和节点DNS"><a href="#设置master和节点DNS" class="headerlink" title="设置master和节点DNS"></a>设置master和节点DNS</h3><p>使用命令查看kubelet配置的位置</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">systemctl status kubelet -l</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/docker/k8s/1561709534383.png" alt="1561709534383"></p>
+<p>修改<code>/var/lib/kubelet/config.yaml</code>文件的内容</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">clusterDNS:</span><br><span class="line">- 10.96.0.2</span><br><span class="line">clusterDomain: cluster.local.</span><br></pre></td></tr></table></figure>
+
+<p>重启</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">systemctl daemon-reload</span><br><span class="line">systemctl restart kubelet</span><br></pre></td></tr></table></figure>
+
+<h3 id="验证DNS"><a href="#验证DNS" class="headerlink" title="验证DNS"></a>验证DNS</h3><p>1、创建一个curl</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">kubectl run -it --image=registry.cn-shenzhen.aliyuncs.com/zhouqi-kubernetes/busyboxplus:v1 curl --rm</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/docker/k8s/1561706009470.png" alt="1561706009470"></p>
+<p>这个地方如果要验证各节点，可以伸缩多个，会运行在不同的节点中</p>
+<p><img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/docker/k8s/1561706093086.png" alt="1561706093086"></p>
+<p>对节点的验证，只需要进入容器使用<code>nslookup kubernetes</code>命令，就可以显示下图</p>
+<p><img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/docker/k8s/1561706175310.png" alt="1561706175310"></p>
+<p>文献参考：<a href="https://blog.51cto.com/michaelkang/2367800">https://blog.51cto.com/michaelkang/2367800</a></p>
+]]></content>
+      <categories>
+        <category>docker</category>
+        <category>k8s</category>
+      </categories>
+      <tags>
+        <tag>docker</tag>
+        <tag>k8s</tag>
       </tags>
   </entry>
   <entry>
@@ -5022,76 +5022,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Spring 阅读源码笔记</title>
-    <url>/2018/05/24/java/spring/5/</url>
-    <content><![CDATA[<h4 id="Spring-阅读源码笔记（原创）"><a href="#Spring-阅读源码笔记（原创）" class="headerlink" title="Spring 阅读源码笔记（原创）"></a>Spring 阅读源码笔记（原创）</h4><h5 id="什么是控制反转"><a href="#什么是控制反转" class="headerlink" title="什么是控制反转"></a>什么是控制反转</h5><p>所谓控制反转，就是把原先我们代码里面需要实现的对象创建、依赖的代码，反转给容器来帮忙实现。那么必然的我们需要创建一个容器，同时需要一种描述来让容器知道需要创建的对象与对象的关系。这个描述最具体表现就是我们可配置的文件。</p>
-<ul>
-<li><p>对象和对象关系怎么表示？<br>可以用 xml ， properties 文件等语义化配置文件表示。</p>
-</li>
-<li><p>描述对象关系的文件存放在哪里？<br>可能是 classpath ， filesystem ，或者是 URL 网络资源， servletContext 等。</p>
-</li>
-<li><p>有了配置文件，还需要对配置文件解析<br>不同的配置文件对对象的描述不一样，如标准的，自定义声明式的，如何统一？ 在内部需要有一个统一的关于对象的定义，所有外部的描述都必须转化成统一的描述定义。如何对不同的配置文件进行解析？需要对不同的配置文件语法，采用不同的解析器</p>
-</li>
-</ul>
-<span id="more"></span>
-
-<h5 id="IOC容器接口"><a href="#IOC容器接口" class="headerlink" title="IOC容器接口"></a>IOC容器接口</h5><p><strong>BeanFactory</strong></p>
-<p>最顶层的一个接口类，它定义了IOC容器的基本功能规范，他下面有三个子类分别是（ListableBeanFactory，HierarchicalBeanFactory，AutowireCapableBeanFactory），这四个接口共同定义了 Bean 的集合、Bean 之间的关系、以及 Bean 行为。</p>
-<ul>
-<li><p>ListableBeanFactory<br>表示这些 Bean 是可列表的</p>
-</li>
-<li><p>HierarchicalBeanFactory<br>表示这些 Bean 是有继承关系的</p>
-</li>
-<li><p>AutowireCapableBeanFactory<br>表示这些 Bean 的自动装配规则</p>
-</li>
-</ul>
-<h5 id="IOC容器实现"><a href="#IOC容器实现" class="headerlink" title="IOC容器实现"></a>IOC容器实现</h5><ul>
-<li><p>XmlBeanFactory<br>最基础的容器实现，这个IOC容器可以读取XML文件定义XML文件中对bean的描述（BeanDefinition）</p>
-</li>
-<li><p>ClasspathXmlApplicationContext<br>高级的IOC容器实现</p>
-</li>
-<li><p>ApplicationContext<br>高级的IoC容器实现，并附加了（国际化MessageSource，访问资源ResourcePatternResolver，应用事件ApplicationEventPublisher）的实现</p>
-</li>
-</ul>
-<p><strong>SpringIOC容器管理了我们定义的各种Bean对象及其相互的关系，Bean对象在Spring实现中是以BeanDefinition来描述的</strong></p>
-<h5 id="IOC容器初始化"><a href="#IOC容器初始化" class="headerlink" title="IOC容器初始化"></a>IOC容器初始化</h5><ul>
-<li>BeanDefinition的Resource定位</li>
-<li>BeanDefinition的Resource载入</li>
-<li>BeanDefinition的Resource注册</li>
-</ul>
-<hr>
-<h5 id="IOC容器创建过程"><a href="#IOC容器创建过程" class="headerlink" title="IOC容器创建过程"></a>IOC容器创建过程</h5><p>IOC容器创建分为两种</p>
-<blockquote>
-<p>XmlBeanFactory<br>FileSystemXmlApplicationContext</p>
-</blockquote>
-<h5 id="XmlBeanFactory创建"><a href="#XmlBeanFactory创建" class="headerlink" title="XmlBeanFactory创建"></a>XmlBeanFactory创建</h5><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//根据Xml配置文件创建Resource资源对象，该对象中包含了BeanDefinition的信息</span></span><br><span class="line"> ClassPathResource resource =<span class="keyword">new</span> ClassPathResource(<span class="string">&quot;application-context.xml&quot;</span>);</span><br><span class="line"><span class="comment">//创建DefaultListableBeanFactory</span></span><br><span class="line"> DefaultListableBeanFactory factory =<span class="keyword">new</span> DefaultListableBeanFactory();</span><br><span class="line"><span class="comment">//创建XmlBeanDefinitionReader读取器，用于载入BeanDefinition。之所以需要BeanFactory作为参数，是因为会将读取的信息回调配置给factory</span></span><br><span class="line"> XmlBeanDefinitionReader reader =<span class="keyword">new</span> XmlBeanDefinitionReader(factory);</span><br><span class="line"><span class="comment">//XmlBeanDefinitionReader执行载入BeanDefinition的方法，最后会完成Bean的载入和注册。完成后Bean就成功的放置到IOC容器当中，以后我们就可以从中取得Bean来使用</span></span><br><span class="line"> reader.loadBeanDefinitions(resource);</span><br></pre></td></tr></table></figure>
-<h5 id="FileSystemXmlApplicationContext创建"><a href="#FileSystemXmlApplicationContext创建" class="headerlink" title="FileSystemXmlApplicationContext创建"></a>FileSystemXmlApplicationContext创建</h5><ul>
-<li>执行FileSystemXmlApplicationContext的构造函数</li>
-<li>设置资源加载器（父类super）和资源定位（AbstractRefreshableConfigApplicationContext中的setConfigLocations）</li>
-<li>AbstractApplicationContext的refresh函数载入Bean</li>
-<li>AbstractRefreshableApplicationContext实现载入Bean</li>
-<li>AbstractBeanDefinitionReader读取Bean定义资源</li>
-<li>资源加载器获取要读入的资源</li>
-<li>XmlBeanDefinitionReader加载Bean定义资源</li>
-<li>DocumentLoader将Bean定义资源转换为Document对象</li>
-<li>XmlBeanDefinitionReader解析载入的Bean定义资源文件</li>
-<li>DefaultBeanDefinitionDocumentReader对Bean定义的Document对象解析</li>
-<li>BeanDefinitionParserDelegate解析&lt;Bean&gt;定义资源文件中的Bean元素</li>
-<li>BeanDefinitionParserDelegate解析&lt;property&gt;元素</li>
-<li>解析&lt;property&gt;元素的子元素</li>
-<li>解析&lt;list&gt;子元素</li>
-<li>解析过后的BeanDefinition在IoC容器中的注册</li>
-</ul>
-]]></content>
-      <categories>
-        <category>java</category>
-      </categories>
-      <tags>
-        <tag>java</tag>
-        <tag>spring</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>源码解读Spring IOC原理（四）</title>
     <url>/2018/05/10/java/spring/4/</url>
     <content><![CDATA[<h4 id="源码解读Spring-IOC原理（四）"><a href="#源码解读Spring-IOC原理（四）" class="headerlink" title="源码解读Spring IOC原理（四）"></a>源码解读Spring IOC原理（四）</h4><h5 id="IOC容器的高级特性"><a href="#IOC容器的高级特性" class="headerlink" title="IOC容器的高级特性"></a>IOC容器的高级特性</h5><h6 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a><strong>介绍</strong></h6><p>通过前面4篇文章对Spring IoC容器的源码分析，我们已经基本上了解了Spring IoC容器对Bean定义资源的定位、读入和解析过程，同时也清楚了当用户通过getBean方法向IoC容器获取被管理的Bean时，IoC容器对Bean进行的初始化和依赖注入过程，这些是Spring IoC容器的基本功能特性。Spring IoC容器还有一些高级特性，如使用lazy-init属性对Bean预初始化、FactoryBean产生或者修饰Bean对象的生成、IoC容器初始化Bean过程中使用BeanPostProcessor后置处理器对Bean声明周期事件管理和IoC容器的autowiring自动装配功能等。</p>
@@ -5184,6 +5114,76 @@
       </tags>
   </entry>
   <entry>
+    <title>Spring 阅读源码笔记</title>
+    <url>/2018/05/24/java/spring/5/</url>
+    <content><![CDATA[<h4 id="Spring-阅读源码笔记（原创）"><a href="#Spring-阅读源码笔记（原创）" class="headerlink" title="Spring 阅读源码笔记（原创）"></a>Spring 阅读源码笔记（原创）</h4><h5 id="什么是控制反转"><a href="#什么是控制反转" class="headerlink" title="什么是控制反转"></a>什么是控制反转</h5><p>所谓控制反转，就是把原先我们代码里面需要实现的对象创建、依赖的代码，反转给容器来帮忙实现。那么必然的我们需要创建一个容器，同时需要一种描述来让容器知道需要创建的对象与对象的关系。这个描述最具体表现就是我们可配置的文件。</p>
+<ul>
+<li><p>对象和对象关系怎么表示？<br>可以用 xml ， properties 文件等语义化配置文件表示。</p>
+</li>
+<li><p>描述对象关系的文件存放在哪里？<br>可能是 classpath ， filesystem ，或者是 URL 网络资源， servletContext 等。</p>
+</li>
+<li><p>有了配置文件，还需要对配置文件解析<br>不同的配置文件对对象的描述不一样，如标准的，自定义声明式的，如何统一？ 在内部需要有一个统一的关于对象的定义，所有外部的描述都必须转化成统一的描述定义。如何对不同的配置文件进行解析？需要对不同的配置文件语法，采用不同的解析器</p>
+</li>
+</ul>
+<span id="more"></span>
+
+<h5 id="IOC容器接口"><a href="#IOC容器接口" class="headerlink" title="IOC容器接口"></a>IOC容器接口</h5><p><strong>BeanFactory</strong></p>
+<p>最顶层的一个接口类，它定义了IOC容器的基本功能规范，他下面有三个子类分别是（ListableBeanFactory，HierarchicalBeanFactory，AutowireCapableBeanFactory），这四个接口共同定义了 Bean 的集合、Bean 之间的关系、以及 Bean 行为。</p>
+<ul>
+<li><p>ListableBeanFactory<br>表示这些 Bean 是可列表的</p>
+</li>
+<li><p>HierarchicalBeanFactory<br>表示这些 Bean 是有继承关系的</p>
+</li>
+<li><p>AutowireCapableBeanFactory<br>表示这些 Bean 的自动装配规则</p>
+</li>
+</ul>
+<h5 id="IOC容器实现"><a href="#IOC容器实现" class="headerlink" title="IOC容器实现"></a>IOC容器实现</h5><ul>
+<li><p>XmlBeanFactory<br>最基础的容器实现，这个IOC容器可以读取XML文件定义XML文件中对bean的描述（BeanDefinition）</p>
+</li>
+<li><p>ClasspathXmlApplicationContext<br>高级的IOC容器实现</p>
+</li>
+<li><p>ApplicationContext<br>高级的IoC容器实现，并附加了（国际化MessageSource，访问资源ResourcePatternResolver，应用事件ApplicationEventPublisher）的实现</p>
+</li>
+</ul>
+<p><strong>SpringIOC容器管理了我们定义的各种Bean对象及其相互的关系，Bean对象在Spring实现中是以BeanDefinition来描述的</strong></p>
+<h5 id="IOC容器初始化"><a href="#IOC容器初始化" class="headerlink" title="IOC容器初始化"></a>IOC容器初始化</h5><ul>
+<li>BeanDefinition的Resource定位</li>
+<li>BeanDefinition的Resource载入</li>
+<li>BeanDefinition的Resource注册</li>
+</ul>
+<hr>
+<h5 id="IOC容器创建过程"><a href="#IOC容器创建过程" class="headerlink" title="IOC容器创建过程"></a>IOC容器创建过程</h5><p>IOC容器创建分为两种</p>
+<blockquote>
+<p>XmlBeanFactory<br>FileSystemXmlApplicationContext</p>
+</blockquote>
+<h5 id="XmlBeanFactory创建"><a href="#XmlBeanFactory创建" class="headerlink" title="XmlBeanFactory创建"></a>XmlBeanFactory创建</h5><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//根据Xml配置文件创建Resource资源对象，该对象中包含了BeanDefinition的信息</span></span><br><span class="line"> ClassPathResource resource =<span class="keyword">new</span> ClassPathResource(<span class="string">&quot;application-context.xml&quot;</span>);</span><br><span class="line"><span class="comment">//创建DefaultListableBeanFactory</span></span><br><span class="line"> DefaultListableBeanFactory factory =<span class="keyword">new</span> DefaultListableBeanFactory();</span><br><span class="line"><span class="comment">//创建XmlBeanDefinitionReader读取器，用于载入BeanDefinition。之所以需要BeanFactory作为参数，是因为会将读取的信息回调配置给factory</span></span><br><span class="line"> XmlBeanDefinitionReader reader =<span class="keyword">new</span> XmlBeanDefinitionReader(factory);</span><br><span class="line"><span class="comment">//XmlBeanDefinitionReader执行载入BeanDefinition的方法，最后会完成Bean的载入和注册。完成后Bean就成功的放置到IOC容器当中，以后我们就可以从中取得Bean来使用</span></span><br><span class="line"> reader.loadBeanDefinitions(resource);</span><br></pre></td></tr></table></figure>
+<h5 id="FileSystemXmlApplicationContext创建"><a href="#FileSystemXmlApplicationContext创建" class="headerlink" title="FileSystemXmlApplicationContext创建"></a>FileSystemXmlApplicationContext创建</h5><ul>
+<li>执行FileSystemXmlApplicationContext的构造函数</li>
+<li>设置资源加载器（父类super）和资源定位（AbstractRefreshableConfigApplicationContext中的setConfigLocations）</li>
+<li>AbstractApplicationContext的refresh函数载入Bean</li>
+<li>AbstractRefreshableApplicationContext实现载入Bean</li>
+<li>AbstractBeanDefinitionReader读取Bean定义资源</li>
+<li>资源加载器获取要读入的资源</li>
+<li>XmlBeanDefinitionReader加载Bean定义资源</li>
+<li>DocumentLoader将Bean定义资源转换为Document对象</li>
+<li>XmlBeanDefinitionReader解析载入的Bean定义资源文件</li>
+<li>DefaultBeanDefinitionDocumentReader对Bean定义的Document对象解析</li>
+<li>BeanDefinitionParserDelegate解析&lt;Bean&gt;定义资源文件中的Bean元素</li>
+<li>BeanDefinitionParserDelegate解析&lt;property&gt;元素</li>
+<li>解析&lt;property&gt;元素的子元素</li>
+<li>解析&lt;list&gt;子元素</li>
+<li>解析过后的BeanDefinition在IoC容器中的注册</li>
+</ul>
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+        <tag>spring</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Spring Cloud 配置中心 Github SSH验证（二）</title>
     <url>/2020/02/02/java/spring-cloud/config-server-github-ssh-2/</url>
     <content><![CDATA[<h3 id="Spring-Cloud-配置中心-Github-SSH验证（二）"><a href="#Spring-Cloud-配置中心-Github-SSH验证（二）" class="headerlink" title="Spring Cloud 配置中心 Github SSH验证（二）"></a>Spring Cloud 配置中心 Github SSH验证（二）</h3><h4 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h4><p>在上一章讲解了如何使用Spring Cloud配置中心读取Github SSH的文件后，发现如果将<code>spring.cloud.config.server.git.private-key=</code>配置的值设置为一个环境变量，在JVM:JAVA_OPS是不可行的，在网上找了很多资料国内的解决方案是使用<code>private_key_file</code>，但官方并未提供，最后找到了解决方案，下面将给出干货提供给大家。</p>
@@ -5199,6 +5199,86 @@
 <h4 id="Spring-Cloud-配置中心properties"><a href="#Spring-Cloud-配置中心properties" class="headerlink" title="Spring Cloud 配置中心properties"></a>Spring Cloud 配置中心properties</h4><figure class="highlight properties"><table><tr><td class="code"><pre><span class="line"><span class="meta">spring.cloud.config.server.git.uri</span>=<span class="string">xxxx</span></span><br><span class="line"><span class="meta">spring.cloud.config.server.git.basedir</span>=<span class="string">./tmp/configv	- 本地保存的配置地址</span></span><br><span class="line"><span class="meta">spring.cloud.config.server.git.clone-on-start</span>=<span class="string">true		- 启动时就克隆配置缓存到本地</span></span><br><span class="line"><span class="meta">spring.cloud.config.server.git.force-pull</span>=<span class="string">true		- 本地副本是脏的,强制从远程存储库拉取配置</span></span><br><span class="line"><span class="meta">spring.cloud.config.server.git.search-paths</span>=<span class="string">/dev	- GIT搜索目录位置</span></span><br><span class="line"><span class="meta">spring.cloud.config.server.git.passphrase</span>=<span class="string">123456	- 生成SSH的密码</span></span><br></pre></td></tr></table></figure>
 
 <p>现在可以尝试启动配置中心来获取配置信息了</p>
+]]></content>
+      <categories>
+        <category>java</category>
+        <category>spring-cloud</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+        <tag>spring-cloud</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Spring Cloud 配置中心 Github SSH验证（一）</title>
+    <url>/2020/01/30/java/spring-cloud/config-server-github-ssh/</url>
+    <content><![CDATA[<h3 id="Spring-Cloud-配置中心-Github-SSH验证"><a href="#Spring-Cloud-配置中心-Github-SSH验证" class="headerlink" title="Spring Cloud 配置中心 Github SSH验证"></a>Spring Cloud 配置中心 Github SSH验证</h3><h4 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h4><p>Spring Cloud Config为分布式系统中的外部配置提供服务器和客户端支持，方便部署与运维。</p>
+<p>目前有一些用的比较多的开源的配置中心，比如携程的 Apollo、阿里Nacos、百度的 Disconf 等，对比 Spring Cloud Config，这些配置中心功能更加强大。有兴趣的可以拿来试一试。</p>
+<p>接下来，我们开始使用Spring Cloud来搭建一个配置中心，并以 github 作为配置存储。除了 git 外，还可以用数据库、svn、本地文件等作为存储。</p>
+<span id="more"></span>
+
+<h4 id="Github-SSH配置"><a href="#Github-SSH配置" class="headerlink" title="Github SSH配置"></a>Github SSH配置</h4><h5 id="密匙生成"><a href="#密匙生成" class="headerlink" title="密匙生成"></a>密匙生成</h5><p>Windows下生成密匙，可以直接使用<code>Git Bash</code>工具，执行<code>ssh-keygen -m PEM -t rsa -b 4096</code>命令</p>
+<p><img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/spring/spring-cloud/config/image-20200130201553870.png" alt="image-20200130201553870"></p>
+<p>在弹出来的选项直接按回车就可以了，密匙生成目录<code>C:\Users\用户\.ssh</code></p>
+<ul>
+<li>公钥<code>id_rsa.pub</code></li>
+<li>私钥<code>id_rsa</code></li>
+</ul>
+<h5 id="配置SSH"><a href="#配置SSH" class="headerlink" title="配置SSH"></a>配置SSH</h5><p>点击右上角头像，弹出的菜单中，点击<code>Settings</code>进入设置</p>
+<img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/spring/spring-cloud/config/image-20200130205501744.png" alt="image-20200130205501744" style="zoom:50%;" />
+
+<p>点击<code>SSH and GPG keys</code>，进入SSH的key设置</p>
+<img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/spring/spring-cloud/config/image-20200130205550957.png" alt="image-20200130205550957" style="zoom:50%;" />
+
+<p>点击<code>New SSH key</code>，进行SSH的添加，记住这里的Title随便填写，Key就是我们的公钥，打开公钥内容全部复制粘贴到Key的输入框中，点击<code>Add SSH key</code>即可！公钥是<code>ssh-rsa </code>开头</p>
+<img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/spring/spring-cloud/config/image-20200130205705772.png" alt="image-20200130205705772" style="zoom:50%;" />
+
+<p>添加公钥后就会显示</p>
+<img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/spring/spring-cloud/config/image-20200130205930159.png" alt="image-20200130205930159" style="zoom:50%;" />
+
+
+
+<h5 id="校验密匙"><a href="#校验密匙" class="headerlink" title="校验密匙"></a>校验密匙</h5><p>这时我们回到Windows上，打开Git Bash，在执行<code>ssh -vT git@github.com</code>命令</p>
+<img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/spring/spring-cloud/config/image-20200130210138318.png" alt="image-20200130210138318" style="zoom: 67%;" />
+
+<p>只要出现<code>You&#39;ve successfully authenticated</code>就证明，已经验证成功了。</p>
+<blockquote>
+<p>如果是内网搭建的Gitlab，可以使用 <code>ssh -vT git@ip -p 端口</code>命令</p>
+</blockquote>
+<h4 id="Spring-Cloud-配置中心"><a href="#Spring-Cloud-配置中心" class="headerlink" title="Spring Cloud 配置中心"></a>Spring Cloud 配置中心</h4><h5 id="配置文件存放"><a href="#配置文件存放" class="headerlink" title="配置文件存放"></a>配置文件存放</h5><p>在github中新建一个仓库，这个仓库一定要是<strong>干净</strong>的，就是最好不要有其他文件存在，不然会报错。因为我们使用了SSH，所以这是一个<strong>私库</strong>，我存放的位置是<code>local/eureka.properties</code>。</p>
+<h5 id="POM依赖"><a href="#POM依赖" class="headerlink" title="POM依赖"></a>POM依赖</h5><figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">     <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.cloud<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">     <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-cloud-config-server<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h5 id="项目配置文件"><a href="#项目配置文件" class="headerlink" title="项目配置文件"></a>项目配置文件</h5><p><strong>properties文件</strong></p>
+<figure class="highlight properties"><table><tr><td class="code"><pre><span class="line"><span class="meta">spring.cloud.config.server.git.uri</span>=<span class="string">git@github.com:Fighting/hyper-config-repo.git</span></span><br><span class="line"><span class="meta">spring.cloud.config.server.git.strict-host-key-checking</span>=<span class="string">false</span></span><br><span class="line"><span class="meta">spring.cloud.config.server.git.ignore-local-ssh-settings</span>=<span class="string">true</span></span><br><span class="line"><span class="meta">spring.cloud.config.server.git.search-paths</span>=<span class="string">/local</span></span><br><span class="line"><span class="meta">spring.cloud.config.server.git.private-key</span>=<span class="string">-----BEGIN RSA PRIVATE KEY-----\n\</span></span><br><span class="line"><span class="string">aaaa\</span></span><br><span class="line"><span class="string">xxxx\n\</span></span><br><span class="line"><span class="string">-----END RSA PRIVATE KEY-----</span></span><br></pre></td></tr></table></figure>
+
+<p>​    <strong>参数说明</strong></p>
+<ul>
+<li>spring.cloud.config.server.git.uri：配置的Github仓库的ssh地址</li>
+<li>spring.cloud.config.server.git.strict-host-key-checking：true-使用用户名密码，false-使用ssh key</li>
+<li>spring.cloud.config.server.git.ignore-local-ssh-settings：true-ssh 登陆方式</li>
+<li>spring.cloud.config.server.git.search-paths：git仓库地址下的相对地址 多个用逗号”,”分割。</li>
+<li>spring.cloud.config.server.git.private-key：私钥内容（可以使用变量代替），这里要注意几点<ul>
+<li>第一行使用<code>\n\</code>结尾</li>
+<li>内容行使用<code>\</code>结尾</li>
+<li>End结束之前使用<code>\n\</code>结尾</li>
+</ul>
+</li>
+</ul>
+<p><strong>yaml文件</strong></p>
+<p>因我项目使用的<code>properties</code>，至于yaml就自行百度吧，应该相差不大。</p>
+<h4 id="启动验证"><a href="#启动验证" class="headerlink" title="启动验证"></a>启动验证</h4><p><strong>main类文件</strong></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="meta">@EnableConfigServer</span></span><br><span class="line"><span class="meta">@SpringBootApplication</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ConfigApplication</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		SpringApplication.run(ConfigApplication.class, args);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>访问配置</strong></p>
+<p>我们在URL中输入<code>http://localhost:8802/eureka/local</code></p>
+<img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/spring/spring-cloud/config/image-20200130213543634.png" alt="image-20200130213543634" style="zoom:50%;" />
+
+
+<p>Spring cloud config 的URL与配置文件的映射关系如下:</p>
+<blockquote>
+<p>/{application}/{profile}[/{label}]<br>/{application}-{profile}.yml<br>/{label}/{application}-{profile}.yml<br>/{application}-{profile}.properties<br>/{label}/{application}-{profile}.properties</p>
+</blockquote>
+<p>我这里的application = eureka，profile = local</p>
 ]]></content>
       <categories>
         <category>java</category>
@@ -5288,86 +5368,6 @@
       <tags>
         <tag>java</tag>
         <tag>spring</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Spring Cloud 配置中心 Github SSH验证（一）</title>
-    <url>/2020/01/30/java/spring-cloud/config-server-github-ssh/</url>
-    <content><![CDATA[<h3 id="Spring-Cloud-配置中心-Github-SSH验证"><a href="#Spring-Cloud-配置中心-Github-SSH验证" class="headerlink" title="Spring Cloud 配置中心 Github SSH验证"></a>Spring Cloud 配置中心 Github SSH验证</h3><h4 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h4><p>Spring Cloud Config为分布式系统中的外部配置提供服务器和客户端支持，方便部署与运维。</p>
-<p>目前有一些用的比较多的开源的配置中心，比如携程的 Apollo、阿里Nacos、百度的 Disconf 等，对比 Spring Cloud Config，这些配置中心功能更加强大。有兴趣的可以拿来试一试。</p>
-<p>接下来，我们开始使用Spring Cloud来搭建一个配置中心，并以 github 作为配置存储。除了 git 外，还可以用数据库、svn、本地文件等作为存储。</p>
-<span id="more"></span>
-
-<h4 id="Github-SSH配置"><a href="#Github-SSH配置" class="headerlink" title="Github SSH配置"></a>Github SSH配置</h4><h5 id="密匙生成"><a href="#密匙生成" class="headerlink" title="密匙生成"></a>密匙生成</h5><p>Windows下生成密匙，可以直接使用<code>Git Bash</code>工具，执行<code>ssh-keygen -m PEM -t rsa -b 4096</code>命令</p>
-<p><img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/spring/spring-cloud/config/image-20200130201553870.png" alt="image-20200130201553870"></p>
-<p>在弹出来的选项直接按回车就可以了，密匙生成目录<code>C:\Users\用户\.ssh</code></p>
-<ul>
-<li>公钥<code>id_rsa.pub</code></li>
-<li>私钥<code>id_rsa</code></li>
-</ul>
-<h5 id="配置SSH"><a href="#配置SSH" class="headerlink" title="配置SSH"></a>配置SSH</h5><p>点击右上角头像，弹出的菜单中，点击<code>Settings</code>进入设置</p>
-<img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/spring/spring-cloud/config/image-20200130205501744.png" alt="image-20200130205501744" style="zoom:50%;" />
-
-<p>点击<code>SSH and GPG keys</code>，进入SSH的key设置</p>
-<img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/spring/spring-cloud/config/image-20200130205550957.png" alt="image-20200130205550957" style="zoom:50%;" />
-
-<p>点击<code>New SSH key</code>，进行SSH的添加，记住这里的Title随便填写，Key就是我们的公钥，打开公钥内容全部复制粘贴到Key的输入框中，点击<code>Add SSH key</code>即可！公钥是<code>ssh-rsa </code>开头</p>
-<img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/spring/spring-cloud/config/image-20200130205705772.png" alt="image-20200130205705772" style="zoom:50%;" />
-
-<p>添加公钥后就会显示</p>
-<img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/spring/spring-cloud/config/image-20200130205930159.png" alt="image-20200130205930159" style="zoom:50%;" />
-
-
-
-<h5 id="校验密匙"><a href="#校验密匙" class="headerlink" title="校验密匙"></a>校验密匙</h5><p>这时我们回到Windows上，打开Git Bash，在执行<code>ssh -vT git@github.com</code>命令</p>
-<img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/spring/spring-cloud/config/image-20200130210138318.png" alt="image-20200130210138318" style="zoom: 67%;" />
-
-<p>只要出现<code>You&#39;ve successfully authenticated</code>就证明，已经验证成功了。</p>
-<blockquote>
-<p>如果是内网搭建的Gitlab，可以使用 <code>ssh -vT git@ip -p 端口</code>命令</p>
-</blockquote>
-<h4 id="Spring-Cloud-配置中心"><a href="#Spring-Cloud-配置中心" class="headerlink" title="Spring Cloud 配置中心"></a>Spring Cloud 配置中心</h4><h5 id="配置文件存放"><a href="#配置文件存放" class="headerlink" title="配置文件存放"></a>配置文件存放</h5><p>在github中新建一个仓库，这个仓库一定要是<strong>干净</strong>的，就是最好不要有其他文件存在，不然会报错。因为我们使用了SSH，所以这是一个<strong>私库</strong>，我存放的位置是<code>local/eureka.properties</code>。</p>
-<h5 id="POM依赖"><a href="#POM依赖" class="headerlink" title="POM依赖"></a>POM依赖</h5><figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">     <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.cloud<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">     <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-cloud-config-server<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h5 id="项目配置文件"><a href="#项目配置文件" class="headerlink" title="项目配置文件"></a>项目配置文件</h5><p><strong>properties文件</strong></p>
-<figure class="highlight properties"><table><tr><td class="code"><pre><span class="line"><span class="meta">spring.cloud.config.server.git.uri</span>=<span class="string">git@github.com:Fighting/hyper-config-repo.git</span></span><br><span class="line"><span class="meta">spring.cloud.config.server.git.strict-host-key-checking</span>=<span class="string">false</span></span><br><span class="line"><span class="meta">spring.cloud.config.server.git.ignore-local-ssh-settings</span>=<span class="string">true</span></span><br><span class="line"><span class="meta">spring.cloud.config.server.git.search-paths</span>=<span class="string">/local</span></span><br><span class="line"><span class="meta">spring.cloud.config.server.git.private-key</span>=<span class="string">-----BEGIN RSA PRIVATE KEY-----\n\</span></span><br><span class="line"><span class="string">aaaa\</span></span><br><span class="line"><span class="string">xxxx\n\</span></span><br><span class="line"><span class="string">-----END RSA PRIVATE KEY-----</span></span><br></pre></td></tr></table></figure>
-
-<p>​    <strong>参数说明</strong></p>
-<ul>
-<li>spring.cloud.config.server.git.uri：配置的Github仓库的ssh地址</li>
-<li>spring.cloud.config.server.git.strict-host-key-checking：true-使用用户名密码，false-使用ssh key</li>
-<li>spring.cloud.config.server.git.ignore-local-ssh-settings：true-ssh 登陆方式</li>
-<li>spring.cloud.config.server.git.search-paths：git仓库地址下的相对地址 多个用逗号”,”分割。</li>
-<li>spring.cloud.config.server.git.private-key：私钥内容（可以使用变量代替），这里要注意几点<ul>
-<li>第一行使用<code>\n\</code>结尾</li>
-<li>内容行使用<code>\</code>结尾</li>
-<li>End结束之前使用<code>\n\</code>结尾</li>
-</ul>
-</li>
-</ul>
-<p><strong>yaml文件</strong></p>
-<p>因我项目使用的<code>properties</code>，至于yaml就自行百度吧，应该相差不大。</p>
-<h4 id="启动验证"><a href="#启动验证" class="headerlink" title="启动验证"></a>启动验证</h4><p><strong>main类文件</strong></p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="meta">@EnableConfigServer</span></span><br><span class="line"><span class="meta">@SpringBootApplication</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ConfigApplication</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		SpringApplication.run(ConfigApplication.class, args);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>访问配置</strong></p>
-<p>我们在URL中输入<code>http://localhost:8802/eureka/local</code></p>
-<img src="https://zhouqi-blog.oss-cn-shenzhen.aliyuncs.com/img/spring/spring-cloud/config/image-20200130213543634.png" alt="image-20200130213543634" style="zoom:50%;" />
-
-
-<p>Spring cloud config 的URL与配置文件的映射关系如下:</p>
-<blockquote>
-<p>/{application}/{profile}[/{label}]<br>/{application}-{profile}.yml<br>/{label}/{application}-{profile}.yml<br>/{application}-{profile}.properties<br>/{label}/{application}-{profile}.properties</p>
-</blockquote>
-<p>我这里的application = eureka，profile = local</p>
-]]></content>
-      <categories>
-        <category>java</category>
-        <category>spring-cloud</category>
-      </categories>
-      <tags>
-        <tag>java</tag>
-        <tag>spring-cloud</tag>
       </tags>
   </entry>
   <entry>
