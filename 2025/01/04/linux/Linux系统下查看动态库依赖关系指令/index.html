@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css" integrity="sha256-2H3fkXt6FEmrReK448mDVGKb3WW2ZZw35gI7vqHOE4Y=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"blog.appydm.com","root":"/","images":"/images","scheme":"Gemini","version":"8.7.0","exturl":false,"sidebar":{"position":"right","display":"always","padding":18,"offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<meta name="description" content="Linux系统下查看动态库依赖关系指令（ldd） LDD用来打印或者查看程序运行所需的共享库,常用来解决程序因缺少某个库文件而不能运行的一些问题。ldd不是一个可执行程序，而只是一个shell脚本。使用ldd可以很方便的查看库与库之间的依赖关系，存放路径等等；对于排查链接不到库的问题很有帮助；  1、ldd命令全称ldd命令全称为list dynamic dependencies（列出动态依赖），">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Linux系统下查看动态库依赖关系指令（ldd）">
+<meta property="og:url" content="http://blog.appydm.com/2025/01/04/linux/Linux%E7%B3%BB%E7%BB%9F%E4%B8%8B%E6%9F%A5%E7%9C%8B%E5%8A%A8%E6%80%81%E5%BA%93%E4%BE%9D%E8%B5%96%E5%85%B3%E7%B3%BB%E6%8C%87%E4%BB%A4/index.html">
+<meta property="og:site_name" content="Fighting的博客">
+<meta property="og:description" content="Linux系统下查看动态库依赖关系指令（ldd） LDD用来打印或者查看程序运行所需的共享库,常用来解决程序因缺少某个库文件而不能运行的一些问题。ldd不是一个可执行程序，而只是一个shell脚本。使用ldd可以很方便的查看库与库之间的依赖关系，存放路径等等；对于排查链接不到库的问题很有帮助；  1、ldd命令全称ldd命令全称为list dynamic dependencies（列出动态依赖），">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://blog.appydm.com/images/pasted-0.png">
+<meta property="og:image" content="http://blog.appydm.com/images/pasted-1.png">
+<meta property="article:published_time" content="2025-01-04T15:43:31.000Z">
+<meta property="article:modified_time" content="2025-01-05T05:44:09.394Z">
+<meta property="article:author" content="Fighting">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://blog.appydm.com/images/pasted-0.png">
+
+
+<link rel="canonical" href="http://blog.appydm.com/2025/01/04/linux/Linux%E7%B3%BB%E7%BB%9F%E4%B8%8B%E6%9F%A5%E7%9C%8B%E5%8A%A8%E6%80%81%E5%BA%93%E4%BE%9D%E8%B5%96%E5%85%B3%E7%B3%BB%E6%8C%87%E4%BB%A4/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://blog.appydm.com/2025/01/04/linux/Linux%E7%B3%BB%E7%BB%9F%E4%B8%8B%E6%9F%A5%E7%9C%8B%E5%8A%A8%E6%80%81%E5%BA%93%E4%BE%9D%E8%B5%96%E5%85%B3%E7%B3%BB%E6%8C%87%E4%BB%A4/","path":"2025/01/04/linux/Linux系统下查看动态库依赖关系指令/","title":"Linux系统下查看动态库依赖关系指令（ldd）"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>Linux系统下查看动态库依赖关系指令（ldd） | Fighting的博客</title>
+  
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<link rel="alternate" href="/atom.xml" title="Fighting的博客" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">Fighting的博客</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">blog.appydm.com</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="home fa-fw"></i>首页</a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="th fa-fw"></i>分类</a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="tags fa-fw"></i>标签</a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="archive fa-fw"></i>归档</a></li>
+        <li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="sitemap fa-fw"></i>站点地图</a></li>
+        <li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="user fa-fw"></i>关于</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Linux%E7%B3%BB%E7%BB%9F%E4%B8%8B%E6%9F%A5%E7%9C%8B%E5%8A%A8%E6%80%81%E5%BA%93%E4%BE%9D%E8%B5%96%E5%85%B3%E7%B3%BB%E6%8C%87%E4%BB%A4%EF%BC%88ldd%EF%BC%89"><span class="nav-number">1.</span> <span class="nav-text">Linux系统下查看动态库依赖关系指令（ldd）</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-overview">
+            <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Fighting</p>
+  <div class="site-description" itemprop="description">奋斗过，就不后悔</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">93</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">26</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">64</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Fighting" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Fighting" rel="noopener" target="_blank"><i class="github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:13966837@qq.com" title="E-Mail → mailto:13966837@qq.com" rel="noopener" target="_blank"><i class="envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="http://blog.163.com/023_dns" title="老博客 → http:&#x2F;&#x2F;blog.163.com&#x2F;023_dns" rel="noopener" target="_blank">老博客</a>
+      </span>
+  </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://blog.appydm.com/2025/01/04/linux/Linux%E7%B3%BB%E7%BB%9F%E4%B8%8B%E6%9F%A5%E7%9C%8B%E5%8A%A8%E6%80%81%E5%BA%93%E4%BE%9D%E8%B5%96%E5%85%B3%E7%B3%BB%E6%8C%87%E4%BB%A4/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Fighting">
+      <meta itemprop="description" content="奋斗过，就不后悔">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fighting的博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Linux系统下查看动态库依赖关系指令（ldd）
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2025-01-04 23:43:31" itemprop="dateCreated datePublished" datetime="2025-01-04T23:43:31+08:00">2025-01-04</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2025-01-05 13:44:09" itemprop="dateModified" datetime="2025-01-05T13:44:09+08:00">2025-01-05</time>
+      </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h4 id="Linux系统下查看动态库依赖关系指令（ldd）"><a href="#Linux系统下查看动态库依赖关系指令（ldd）" class="headerlink" title="Linux系统下查看动态库依赖关系指令（ldd）"></a>Linux系统下查看动态库依赖关系指令（ldd）</h4><blockquote>
+<p>LDD用来打印或者查看程序运行所需的共享库,常用来解决程序因缺少某个库文件而不能运行的一些问题。ldd不是一个可执行程序，而只是一个shell脚本。使用ldd可以很方便的查看库与库之间的依赖关系，存放路径等等；对于排查链接不到库的问题很有帮助；</p>
+</blockquote>
+<p><strong>1、ldd命令全称</strong><br>ldd命令全称为list dynamic dependencies（列出动态依赖），是Linux下常用的命令之一。它可以用来显示一个可执行文件或者共享库（动态链接库）所依赖的共享库。</p>
+<p><strong>2、ldd参数说明</strong><br>–help 获取指令帮助信息；<br>–version 打印指令版本号；<br>-d,–data-relocs 执行重定位和报告任何丢失的对象；<br>-r, –function-relocs 执行数据对象和函数的重定位，并且报告任何丢失的对象和函数；<br>-u, –unused 打印未使用的直接依赖；<br>-v, –verbose 详细信息模式，打印所有相关信息；</p>
+<p><strong>3、简单示例</strong><br><img src="/images/pasted-0.png" alt="Example Image"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ldd libffi.so.7</span><br></pre></td></tr></table></figure>
+<p>可以看到，libffi.so.7库需要依赖libc.so.6，而libc.so.6的位置在/lib/aarch64-linux-gnu/libc.so.6 ，它的开始位置是0x0000ffff9ee7a000</p>
+<p><strong>4、查看缺少的依赖库</strong><br>如果当前的动态库因为缺少依赖库而无法链接，那么可以通过ldd查看缺少的依赖库。</p>
+<p><img src="/images/pasted-1.png" alt="Example Image"></p>
+<p>结果中可以看出，yh_ofd2img_ARRACH_64.so库需要依赖libQt5PrintSupport.so.5，而yh_ofd2img_ARRACH_64.so却找不到，方便排查。</p>
+<span id="more"></span>
+
+<p><strong>5、ldd指令详细介绍</strong><br>1、ldd是Linux中的一个重要命令，用于打印可执行文件或共享库所依赖的动态链接库信息。下面详细介绍ldd指令的功能和用法。</p>
+<p>命令格式： ldd [选项] &lt;可执行文件或共享库&gt;</p>
+<p>2、功能描述： ldd命令显示一个可执行文件或共享库所依赖的动态链接库列表。它会递归地检查文件所依赖的所有库，并显示它们的路径。通过ldd命令可以了解一个程序运行所需的库文件，以及这些库文件是否存在、版本是否匹配等信息。</p>
+<p>3、常用选项： -v, –verbose：显示详细的调试信息，包括版本号、加载方式等。 -u, –unused：只显示未使用的直接依赖库。 -r, –function-relocs：在关联库中显示函数的重定位信息。 -d, –data-relocs：在关联库中显示数据的重定位信息。 –help：显示帮助信息。 –version：显示版本信息。</p>
+<p>4、使用示例： (1) 查看可执行文件所依赖的库： ldd /path/to/executable</p>
+<p>(2) 查看共享库的依赖关系： ldd /path/to/shared_library.so</p>
+<p>(3) 显示详细的依赖库信息： ldd -v /path/to/executable</p>
+<p>(4) 只显示未使用的直接依赖库： ldd -u /path/to/executable</p>
+<p>(5) 显示函数和数据的重定位信息： ldd -r /path/to/executable</p>
+<p>5、输出解读： 对于每个所依赖的库，ldd会显示它的路径，并用以下格式标记其状态： =&gt; 文件路径：正常找到并链接。 =&gt; not found：未找到该库文件。 =&gt; version mismatch：版本不匹配。 =&gt; incompatible：与可执行文件或其他库不兼容。 =&gt; symbol not found：找不到某个符号。</p>
+<p>另外，ldd命令还可以显示库所需的其他库。通过观察输出结果，在开发调试过程中可以及时了解和解决动态链接库的相关问题。</p>
+<p>使用ldd命令可以帮助开发人员、系统管理员等快速了解程序运行所需的库文件是否存在、版本是否匹配，从而排查库依赖问题。在调试和部署过程中，ldd是一个非常有用的工具，能够提高开发效率和减少出错的可能性。</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2021/07/06/bigdata/Ambari-2-7-3-%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85%E6%89%8B%E5%86%8C/" rel="prev" title="Ambari 2.7.3 离线安装手册">
+                  <i class="fa fa-chevron-left"></i> Ambari 2.7.3 离线安装手册
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 2009 – 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class=""></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Fighting</span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/next-boot.js"></script>
+
+  
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>
